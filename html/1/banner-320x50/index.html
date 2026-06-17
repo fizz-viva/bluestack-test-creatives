@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=no">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 320px;
+      height: 50px;
+      overflow: hidden;
+      background: #0b63ff;
+      font-family: Arial, sans-serif;
+    }
+
+    .ad {
+      width: 320px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 8px 10px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .cta {
+      background: white;
+      color: #0b63ff;
+      padding: 5px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="ad" onclick="window.open('https://www.example.com', '_blank')">
+    <div class="title">BlueStack Test Ad</div>
+    <div class="cta">Click</div>
+  </div>
+</body>
+</html>
